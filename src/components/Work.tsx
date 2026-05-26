@@ -1,6 +1,5 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
@@ -111,6 +110,7 @@ const Work = () => {
                     <div className="carousel-thumb">
                       <img src={project.image} alt={project.title} />
                     </div>
+                  </div>
                 </div>
               ))}
             </div>
