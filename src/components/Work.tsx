@@ -107,9 +107,6 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="carousel-thumb">
-                      <img src={project.image} alt={project.title} />
-                    </div>
                   </div>
                 </div>
               ))}
