@@ -103,8 +103,10 @@
 .carousel-tools p {
   font-weight: 200;
   color: #adacac;
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   font-size: 15px;
+  line-height: 1.6;
+  white-space: pre-line;
 }
 
 .carousel-image-wrapper {

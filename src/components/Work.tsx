@@ -4,28 +4,38 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Ai-Powered Resume Analyzer",
-    category: "AI Resume Analyzer Tools",
-    tools: "React, Puter.js",
+    title: "AI-Powered Resume Analyzer",
+    category: "Full-Stack Developer",
+    tools: `Developed a full-stack React, puter.js, and TypeScript resume analyzer with a Tailwind CSS dashboard, boosting applicant ATS shortlisting rates by 40%.
+
+Engineered an NLP matching engine and integrated Puppeteer for automated document extraction, delivering precise keyword scoring in under 3 seconds.`,
     image: "/images/ai-resume.png",
   },
   {
     title: "R-Choice",
-    category: "Internship & Placement Platform",
-    tools: "Next.js 16 (App Router), React 19, TypeScript, Drizzle ORM. Streamlined 8-role pipeline managing internship workflows and automated approvals.",
+    category: "Frontend & API Developer (Team of 4)",
+    tools: `Developed the Next.js/React frontend and APIs for a 5,000+ user portal, slashing approval times by 66% while collaborating on the PostgreSQL/Drizzle backend.
+
+Built secure, real-time analytics dashboards (Recharts) optimizing performance to <1.5s LCP and ensuring WCAG 2.1 AA compliance.
+
+Integrated Cloudinary, Nodemailer, and jsPDF workflows to automate media handling, emails, and certificate generation for an 8-role, 6-tier pipeline.`,
     image: "/images/r-choice.png",
   },
   {
-    title: "NeerAI",
-    category: "Smart Water Grid AI",
-    tools: "Next.js 15, TinyML (ESP32), LSTM Networks. Pinpoints pipe leaks, predicts water pump degradation/RUL, and optimizes grid energy usage.",
-    image: "/images/neer-ai.png",
+    title: "TNEB-GridSense",
+    category: "IoT Architect & Frontend Developer",
+    tools: `Architected an industrial IoT telemetry system integrating ESP32, LoRa SX1278, and precision sensors (ADS1115, ACS712) with automated trip-relays to reduce grid downtime by 30%.
+
+Developed a React/Tailwind dashboard utilizing CenseOps to translate complex hardware metrics (INA219) and cloud-based predictive algorithms into actionable visual analytics.`,
+    image: "/images/tn-gridsense.png",
   },
   {
-    title: "TN-GridSense",
-    category: "IoT Grid Monitoring",
-    tools: "ESP32, Bun.js. Monitors pole-level stress conditions and forecasts transformer failures to proactively prevent sector-wide power outages.",
-    image: "/images/tn-gridsense.png",
+    title: "🌊 NeerAI",
+    category: "IoT Architect & Full-Stack Developer (Team of 4)",
+    tools: `Tech Stack: ESP32 • C++ • Bun.js • Elysia • Next.js • WebSockets • Recharts
+
+A 3-tier digital twin platform built to eliminate municipal water waste and optimize infrastructure through Edge AI and predictive modeling.`,
+    image: "/images/neer-ai.png",
   },
 ];
 
