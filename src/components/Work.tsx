@@ -6,9 +6,9 @@ const projects = [
   {
     title: "AI-Powered Resume Analyzer",
     category: "Full-Stack Developer",
-    tools: `Developed a full-stack React, puter.js, and TypeScript resume analyzer with a Tailwind CSS dashboard, boosting applicant ATS shortlisting rates by 40%.
+    tools: `Developed a full-stack React, puter.js, and TypeScript resume analyzer with a Tailwind CSS dashboard, boosting applicant ATS shortlisting rates by [40%].
 
-Engineered an NLP matching engine and integrated Puppeteer for automated document extraction, delivering precise keyword scoring in under 3 seconds.`,
+Engineered an NLP matching engine and integrated Puppeteer for automated document extraction, delivering precise keyword scoring in under [3] seconds.`,
     image: "/images/ai-resume.png",
   },
   {
@@ -22,9 +22,9 @@ Integrated Cloudinary, Nodemailer, and jsPDF workflows to automate media handlin
     image: "/images/r-choice.png",
   },
   {
-    title: "TNEB-GridSense",
+    title: "TNEB-GridSense — Smart Pole Telemetry System",
     category: "IoT Architect & Frontend Developer",
-    tools: `Architected an industrial IoT telemetry system integrating ESP32, LoRa SX1278, and precision sensors (ADS1115, ACS712) with automated trip-relays to reduce grid downtime by 30%.
+    tools: `Architected an industrial IoT telemetry system integrating ESP32, LoRa SX1278, and precision sensors (ADS1115, ACS712) with automated trip-relays to reduce grid downtime by [30%].
 
 Developed a React/Tailwind dashboard utilizing CenseOps to translate complex hardware metrics (INA219) and cloud-based predictive algorithms into actionable visual analytics.`,
     image: "/images/tn-gridsense.png",
