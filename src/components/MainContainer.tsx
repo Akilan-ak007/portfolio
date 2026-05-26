@@ -1,4 +1,5 @@
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
+import { ReactLenis } from "lenis/react";
 import About from "./About";
 import Career from "./Career";
 import Contact from "./Contact";
@@ -35,23 +36,21 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       <Navbar />
       <SocialIcons />
       {isDesktopView && children}
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <div className="container-main">
-            <Landing>{!isDesktopView && children}</Landing>
-            <About />
-            <WhatIDo />
-            <Career />
-            <Work />
-            {isDesktopView && (
-              <Suspense fallback={<div>Loading....</div>}>
-                <TechStack />
-              </Suspense>
-            )}
-            <Contact />
-          </div>
+      <ReactLenis root>
+        <div className="container-main">
+          <Landing>{!isDesktopView && children}</Landing>
+          <About />
+          <WhatIDo />
+          <Career />
+          <Work />
+          {isDesktopView && (
+            <Suspense fallback={<div>Loading....</div>}>
+              <TechStack />
+            </Suspense>
+          )}
+          <Contact />
         </div>
-      </div>
+      </ReactLenis>
     </div>
   );
 };

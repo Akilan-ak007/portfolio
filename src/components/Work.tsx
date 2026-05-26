@@ -5,34 +5,28 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Ai-Powered Resume Analyzer",
+    category: "AI Resume Analyzer Tools",
+    tools: "React, Puter.js",
+    image: "/images/ai-resume.png",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "R-Choice",
+    category: "Internship & Placement Platform",
+    tools: "Next.js 16 (App Router), React 19, TypeScript, Drizzle ORM. Streamlined 8-role pipeline managing internship workflows and automated approvals.",
+    image: "/images/r-choice.png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "NeerAI",
+    category: "Smart Water Grid AI",
+    tools: "Next.js 15, TinyML (ESP32), LSTM Networks. Pinpoints pipe leaks, predicts water pump degradation/RUL, and optimizes grid energy usage.",
+    image: "/images/neer-ai.png",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "TN-GridSense",
+    category: "IoT Grid Monitoring",
+    tools: "ESP32, Bun.js. Monitors pole-level stress conditions and forecasts transformer failures to proactively prevent sector-wide power outages.",
+    image: "/images/tn-gridsense.png",
   },
 ];
 
