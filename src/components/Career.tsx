@@ -4,10 +4,15 @@ const Career = () => {
   return (
     <div className="career-section section-container">
       <div className="career-container">
-        <h2>
-          My career <span>&</span>
-          <br /> experience
-        </h2>
+        <div style={{ textAlign: "center", marginBottom: "90px" }}>
+          <h2 style={{ margin: "50px 0 10px 0" }}>
+            From Scratch <span>to</span>
+            <br /> Silverware
+          </h2>
+          <span style={{ color: "var(--accentColor)", letterSpacing: "3px", textTransform: "uppercase", fontSize: "16px", fontWeight: "300" }}>
+            The Story of My Technical Growth
+          </span>
+        </div>
         <div className="career-info">
           <div className="career-timeline">
             <div className="career-dot"></div>
@@ -15,43 +20,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Starting From Scratch</h4>
+                <h5>Zero to Fundamentals</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Started with zero background in tech. Navigated the fundamentals of programming, embraced the steep learning curve, and turned initial confusion into daily curiosity.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Building the Engine</h4>
+                <h5>CS Fundamentals & DSA</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Shifted focus to core computer science fundamentals. Mastered Data Structures & Algorithms (DSA), built initial full-stack applications, and practiced consistency over comfort.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Bringing Home the Silverware</h4>
+                <h5>Hackathons & Engineering</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Stepped into the competitive arena. Transformed early setbacks into multiple hackathon victories, secured software engineering internships, and gained real-world experience shipping production-ready code.
             </p>
           </div>
         </div>
